@@ -1,0 +1,9 @@
+{
+  "highlights": {
+    "adaptive_cells": 420,
+    "adaptive_saving_pct": 18.0,
+    "isolation_recall_pct": 95.74468085106383
+  },
+  "notes": "This simulator ships metric manifests; publication figures can be rendered from these values.",
+  "status": "generated"
+}

@@ -1,0 +1,85 @@
+{
+  "dataset_summary": {
+    "rows": {
+      "arbiter": 6000,
+      "hybrid": 6000,
+      "sram": 6000
+    },
+    "seed": 42
+  },
+  "offline_characterization": {
+    "arbiter": {
+      "inter_hd_pct": 45.15,
+      "intra_hd_pct": 0.47
+    },
+    "hybrid": {
+      "inter_hd_pct": 50.3,
+      "intra_hd_pct": 6.71
+    },
+    "sram": {
+      "inter_hd_pct": 46.89,
+      "intra_hd_pct": 3.2
+    }
+  },
+  "seed": 42,
+  "v11": {
+    "arrhenius_cold_start": {
+      "gap_closed_pct": 23.9
+    },
+    "pbft_messages": {
+      "formula": "(n-1)+2n(n-1)+(f+1)",
+      "n4_f1": 29,
+      "n7_f2": 93
+    },
+    "trimmed_mean_attack_bit_mae": {
+      "fedavg": 0.0414,
+      "improvement_ratio": 18.818181818181817,
+      "trimmed_mean": 0.0022
+    }
+  },
+  "v2": {
+    "adaptive_ecc": {
+      "adaptive_key_recovery": 0.996361307439491,
+      "cells": 420,
+      "max_repetition": 9,
+      "mean_repetition": 6.5625,
+      "saving_vs_512_pct": 18.0,
+      "saving_vs_512_pct_raw": 17.96875,
+      "static_rep8_key_recovery_nominal": 0.9924097725967798,
+      "tau_key": 0.99
+    },
+    "isolation_forest": {
+      "counts": {
+        "adversarial_test": 470,
+        "benign_test": 1106,
+        "benign_train": 4424,
+        "fn": 20,
+        "fp": 63,
+        "tn": 1043,
+        "tp": 450
+      },
+      "false_alarm_rate": 0.056962025316455694,
+      "precision": 0.8771929824561403,
+      "recall": 0.9574468085106383,
+      "roc_auc": 0.9939
+    },
+    "regime_rep8_key_recovery": {
+      "attack": 0.6829450370975174,
+      "cold": 0.9955108556202127,
+      "nominal": 0.9967545480324479,
+      "warm": 0.9830159504817632
+    },
+    "rf_per_bit": {
+      "mean_r2": -0.5,
+      "mean_rmse": 0.0625
+    },
+    "stale_model_sanity": {
+      "assertion_passed": true,
+      "min_repetition_when_stale": 8
+    },
+    "xgboost_aggregate": {
+      "mae_bits": 1.262,
+      "r2": 0.363
+    }
+  }
+}
