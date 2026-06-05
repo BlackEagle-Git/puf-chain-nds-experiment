@@ -2,6 +2,8 @@
 
 A research simulation and reproducibility framework for a hardware-rooted IoT security system that combines Physically Unclonable Functions (PUFs), blockchain-style tamper detection, adaptive error correction, and machine-learning-based intrusion detection.
 
+https://doi.org/10.5281/zenodo.20554095
+
 ---
 
 ## Table of Contents
